@@ -1,0 +1,4 @@
+<resources>
+    <string name="hello">Hello World, AddressActivity!</string>
+    <string name="app_name">Address</string>
+</resources>
