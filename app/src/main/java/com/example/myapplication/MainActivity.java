@@ -110,6 +110,8 @@ public class MainActivity extends AppCompatActivity {
         String ret = "";
         try {
             List<Address> addresses = geocoder.getFromLocation(Double.parseDouble(lat), Double.parseDouble(lon), 1);
+
+
             if(addresses != null) {
                 Address returnedAddress = addresses.get(0);
                 StringBuilder strReturnedAddress = new StringBuilder("Address:\n");
